@@ -86,15 +86,15 @@ public class Flat {
     }
 
     @Override
-    public String toString() {
+    public String toString() {  //тримай гліна
         return "Flat{" +
                 "id=" + id +
-                ", district='" + district + '\'' +
-                ", address='" + address + '\'' +
-                ", square=" + square +
-                ", countOfRooms=" + countOfRooms +
-                ", price=" + price +
-                '}';
+                ", district='" + district + '\'' 
+                + ", address='" + address + '\''
+                + ", square=" + square
+                + ", countOfRooms=" + countOfRooms 
+                + ", price=" + price
+                + '}';
     }
 }
 
